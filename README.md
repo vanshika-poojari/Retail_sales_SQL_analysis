@@ -50,9 +50,9 @@ create database retail_sale;
 
 
 
-        select year (sale_date) as years, month(sale_date) as months, round(avg(total_sale)) as avg_sale from retail_table
-        group by years, months 
-        order by years, months; 
+      select year (sale_date) as years, month(sale_date) as months, round(avg(total_sale)) as avg_sale from retail_table
+      group by years, months 
+      order by years, months; 
 
 -- **Write a SQL query to find the top 5 customers based on the highest total sales **:
 
